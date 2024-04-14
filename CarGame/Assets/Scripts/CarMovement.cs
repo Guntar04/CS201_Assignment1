@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class CarMovement : MonoBehaviour
 {
     [SerializeField] float carSpeed = 10.0f;
-    [SerializeField] float carMaxSpeed = 40.0f;
+    [SerializeField] float carMaxSpeed = 30.0f;
     [SerializeField] float rotationSpeed = 80.0f;
     [SerializeField] float nitroFuelMax = 100.0f;
     [HideInInspector] public float nitroFuel = 100.0f;
